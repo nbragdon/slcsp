@@ -166,3 +166,8 @@ class CoveragePlans():
             return []
 
         return self.coverage_plan_mapping[rate_area_tuple]
+
+
+# Generates the report when you import the file
+# makes it easier to run from command line
+generate_slcsp_report()

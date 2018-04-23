@@ -1,0 +1,6 @@
+Written in Python 3, run using `python slcsp.py`.
+This should automatically write to the `slcsp-output.csv` which is also included in the zip.
+Consider deleting/moving the output file before running this to be certain that the file is created/populated for you.
+I left in some logging info statements that might be useful if this were some kind of nightly task running in production, 
+feel free to adjust the logging level `logging.basicConfig(level=logging.INFO)` to `logging.basicConfig(level=logging.WARNING)`
+if you don't want to see them.
